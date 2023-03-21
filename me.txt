@@ -1,0 +1,6 @@
+
+1.
+pip install Django djangorestframework django-filter
+
+2.
+django-admin startproject config .
