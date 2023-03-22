@@ -47,5 +47,9 @@ ALLOWED_HOSTS = env.str('ALLOWED_HOSTS', default='').split('')
 BASE_DIR = root()
 
 7. Создать БД в PostgreSQL
-ps
 
+8. Подключить базу данных PostgreSQL
+
+pip install psycopg2
+
+python.exe .\manage.py   - все доступные команды

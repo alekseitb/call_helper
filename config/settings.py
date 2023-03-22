@@ -1,5 +1,6 @@
 from pathlib import Path
 import environ
+import os
 
 root = environ.Path(__file__) - 2
 env = environ.Env()
@@ -80,8 +81,6 @@ DATABASES = {
 }
 
 
-# Password validation
-# https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
